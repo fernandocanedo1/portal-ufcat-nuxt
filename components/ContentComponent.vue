@@ -218,103 +218,208 @@
                         </ul>
                     </div>
                     <div class="main-content pl-sm-3 mt-4" id="main-content">
-                        <h1>Título h1</h1>
-                        <p>Parágrafo de exemplo <a href="">link de exemplo</a>.</p>
-                        <h2>Título h2</h2>
-                        <h3>Título h3</h3>
-                        <h4>Título h4</h4>
-                        <h5>Título h5</h5>
-                        <h6>Título h6</h6>
+
                         <div class="row">
-                            <div class="col-auto">
-                                <ul>
-                                    <li>item sem ordenação</li>
-                                    <li>item sem ordenação</li>
-                                    <li>item sem ordenação</li>
-                                </ul>
-                            </div>
-                            <div class="col-auto">
-                                <ol>
-                                    <li>item ordenado</li>
-                                    <li>item ordenado</li>
-                                    <li>item ordenado</li>
-                                </ol>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm">
-                                <fieldset>
-                                    <legend>Nome Completo (Legend)</legend>
-                                    <div class="row">
-                                        <div class="col-md-7 mb-3">
-                                            <div class="br-input"><label for="name">Nome</label>
-                                                <input id="name" value="Fulano (input preenchido)" type="text" />
+                            <div class="col-sm-12 col-md-8">
+                                <div class="br-carousel" data-stage="in" data-mobile-nav="">
+                                    <div class="carousel-button">
+                                        <button class="br-button carousel-btn-prev terciary circle" type="button"
+                                            aria-label="Anterior"><i class="fas fa-angle-left" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="carousel-stage">
+                                        <div class="carousel-page" active="active">
+                                            <div class="carousel-content bg-blue-10">
+                                                <div class="h3 carousel-title">Página 1</div>
                                             </div>
                                         </div>
-                                        <div class="col-md-7 mb-3">
-                                            <div class="br-input">
-                                                <label for="surname">Sobrenome</label>
-                                                <input id="surname" type="text" placeholder="Placeholder" />
+                                        <div class="carousel-page">
+                                            <div class="carousel-content bg-violet-warm-10">
+                                                <div class="h3 carousel-title">Página 2</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-page">
+                                            <div class="carousel-content bg-yellow-5">
+                                                <div class="h3 carousel-title">Página 3</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-page">
+                                            <div class="carousel-content bg-green-cool-10">
+                                                <div class="h3 carousel-title">Página 4</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-page">
+                                            <div class="carousel-content bg-orange-vivid-10">
+                                                <div class="h3 carousel-title">Página 5</div>
                                             </div>
                                         </div>
                                     </div>
-                                </fieldset>
-                            </div>
-                            <div class="col-sm">
-                                <fieldset>
-                                    <legend>Outros Dados (Legend)</legend>
-                                    <div class="row">
-                                        <div class="col-md-7 mb-3">
-                                            <div class="br-input">
-                                                <label for="cpf">CPF</label>
-                                                <input id="cpf" type="text" placeholder="Placeholder" />
-                                            </div>
-                                        </div>
-                                        <div class="col-md-7 mb-3">
-                                            <div class="br-input input-button">
-                                                <label for="input-password">Senha</label>
-                                                <input id="input-password" type="password"
-                                                    placeholder="Digite sua senha" />
-                                                <button class="br-button crumb" type="button"
-                                                    aria-label="Mostrar senha"><i class="fas fa-eye"
-                                                        aria-hidden="true"></i>
-                                                </button>
+                                    <div class="carousel-button">
+                                        <button class="br-button carousel-btn-next terciary circle" type="button"
+                                            aria-label="Próximo"><i class="fas fa-angle-right" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+                                    <div class="carousel-step">
+                                        <div class="br-step" data-initial="1" data-type="simple">
+                                            <div class="step-progress">
+                                                <button class="step-progress-btn" type="button"><span
+                                                        class="step-info">Exemplo de Rótulo 1</span></button>
+                                                <button class="step-progress-btn" type="button"><span
+                                                        class="step-info">Exemplo de Rótulo 2</span></button>
+                                                <button class="step-progress-btn" type="button"><span
+                                                        class="step-info">Exemplo de Rótulo 3</span></button>
+                                                <button class="step-progress-btn" type="button"><span
+                                                        class="step-info">Exemplo de Rótulo 4</span></button>
+                                                <button class="step-progress-btn" type="button"><span
+                                                        class="step-info">Exemplo de Rótulo 5</span></button>
                                             </div>
                                         </div>
                                     </div>
-                                </fieldset>
+                                </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-sm d-flex">
-                                <div class="br-card">
-                                    <div class="card-header">Card de exemplo 1</div>
-                                    <div class="card-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                        Ducimus
-                                        dignissimos, recusandae at accusamus autem error hic adipisci eligendi eum
-                                        debitis dolores magnam
-                                        quod sint doloribus omnis vitae placeat. Natus, minus.</div>
+
+
+                        <section class="pt-5 pb-5" id="">
+                            <div class="container">
+                                <div class="title-flex">
+                                    <h2>Notícias em Destaque</h2>
+                                </div>
+                                <div class="row mb-md-2">
+                                    <div class="col-md-6 col-lg-4">
+                                        <div class="br-card  " id="link-card"
+                                            onclick="window.location='http://example.com';">
+                                            <a class="position-relative">
+                                                <img src="http://200.18.165.172:8080/ufcat/secretarias/seti/f91ca042-e4c4-4df5-9b53-451efebb74b1.jpeg/@@images/2e2c9978-8ecf-4f6e-a701-09430a824b93.jpeg"
+                                                    class="card-img-top" alt="image"> </a>
+                                            <div class="tile-subtitle">
+
+                                                <h5 class="font-weight-normal">Coworking Workspace</h5>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4">
+                                        <div class="br-card  ">
+                                            <a href="#" class="position-relative">
+                                                <img src="http://200.18.165.172:8080/ufcat/secretarias/seti/f91ca042-e4c4-4df5-9b53-451efebb74b1.jpeg/@@images/2e2c9978-8ecf-4f6e-a701-09430a824b93.jpeg"
+                                                    class="card-img-top" alt="image"> </a>
+                                            <div class="tile-subtitle">
+                                                <a href="#">
+                                                    <h5 class="font-weight-normal">Coworking Workspace</h5>
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4">
+                                        <div class="br-card  ">
+                                            <a href="#" class="position-relative">
+                                                <img src="http://200.18.165.172:8080/ufcat/secretarias/seti/f91ca042-e4c4-4df5-9b53-451efebb74b1.jpeg/@@images/2e2c9978-8ecf-4f6e-a701-09430a824b93.jpeg"
+                                                    class="card-img-top" alt="image"> </a>
+                                            <div class="tile-subtitle">
+                                                <a href="#">
+                                                    <h5 class="font-weight-normal">Coworking Workspace</h5>
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container-button">
+                                    <button class="br-button secondary" type="button"
+                                        onclick="window.location.href='seti/noticias'">Mais
+                                        Notícias
+                                    </button>
                                 </div>
                             </div>
-                            <div class="col-sm d-flex">
-                                <div class="br-card">
-                                    <div class="card-header">Card de exemplo 2</div>
-                                    <div class="card-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                        Veritatis culpa
-                                        inventore mollitia vitae a nesciunt reiciendis incidunt, labore repudiandae
-                                        voluptate nisi.
-                                        Numquam illo est maiores doloribus recusandae rem inventore ea?</div>
+                        </section>
+
+
+                        <div class="mosaic-grid-row">
+                            <div class="mosaic-grid-cell mosaic-width-full mosaic-position-leftmost">
+                                <div class="movable removable mosaic-tile mosaic-IDublinCore-description-tile">
+                                    <div class="mosaic-tile-content">
+                                        <div
+                                            data-tile="./@@plone.app.standardtiles.field?field=IDublinCore-description">
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-sm d-flex">
-                                <div class="br-card">
-                                    <div class="card-header">Card de exemplo 3</div>
-                                    <div class="card-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                        Laboriosam
-                                        cupiditate nihil facere autem dignissimos ex beatae labore? Fuga consequuntur
-                                        consectetur
-                                        voluptatum incidunt, tenetur, dolore magnam inventore hic iusto amet ipsa.</div>
+                        </div>
+                        <div class="mosaic-grid-row">
+                            <div class="mosaic-grid-cell mosaic-width-full mosaic-position-leftmost">
+                                <div
+                                    class="movable removable mosaic-tile mosaic-plone.app.standardtiles.contentlisting-tile">
+                                    <div class="mosaic-tile-content">id
+                                        <div
+                                            class="movable removable mosaic-tile mosaic-plone.app.standardtiles.contentlisting-tile">
+                                            <div class="mosaic-tile-content">
+                                                <div
+                                                    data-tile="./@@plone.app.standardtiles.contentlisting/23a6b91b6af94680a9aa3fec57c8b2b3">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
+                                <div class="container-button">
+                                    <button class="br-button secondary" type="button"
+                                        onclick="window.location.href='#'">Mais
+                                        Eventos
+                                    </button>
+                                </div>
+                                <div class="items-container">
+                                    <div class="photoAlbumEntry">
+                                        <a href="#" title="">
+                                            <span aria-hidden="true" class="fas fa-tractor" style=""></span>
+                                            <span class="photoAlbumEntryTitle">Testando</span>
+                                        </a>
+                                    </div>
+                                    <div class="photoAlbumEntry">
+                                        <a href="#" title="">
+                                            <span aria-hidden="true" class="fas fa-tractor" style=""></span>
+                                            <span class="photoAlbumEntryTitle">Testando</span>
+                                        </a>
+                                    </div>
+                                    <div class="photoAlbumEntry">
+                                        <a href="#" title="">
+                                            <span aria-hidden="true" class="fas fa-tractor" style=""></span>
+                                            <span class="photoAlbumEntryTitle">Testando</span>
+                                        </a>
+                                    </div>
+                                    <div class="photoAlbumEntry">
+                                        <a href="#" title="">
+                                            <span aria-hidden="true" class="fas fa-tractor" style=""></span>
+                                            <span class="photoAlbumEntryTitle">Testando</span>
+                                        </a>
+                                    </div>
+                                    <div class="photoAlbumEntry">
+                                        <a href="#" title="">
+                                            <span aria-hidden="true" class="fas fa-tractor" style=""></span>
+                                            <span class="photoAlbumEntryTitle">Testando</span>
+                                        </a>
+                                    </div>
+                                    <div class="photoAlbumEntry">
+                                        <a href="#" title="">
+                                            <span aria-hidden="true" class="fas fa-tractor" style=""></span>
+                                            <span class="photoAlbumEntryTitle">Testando</span>
+                                        </a>
+                                    </div>
+                                    <div class="photoAlbumEntry">
+                                        <a href="#" title="">
+                                            <span aria-hidden="true" class="fas fa-tractor" style=""></span>
+                                            <span class="photoAlbumEntryTitle">Testando</span>
+                                        </a>
+                                    </div>
+                                    <div class="photoAlbumEntry">
+                                        <a href="#" title="">
+                                            <span aria-hidden="true" class="fas fa-tractor" style=""></span>
+                                            <span class="photoAlbumEntryTitle">Testando</span>
+                                        </a>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -322,5 +427,5 @@
             </div>
         </div>
     </main>
-    
+
 </template>

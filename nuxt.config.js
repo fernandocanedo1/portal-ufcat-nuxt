@@ -15,7 +15,8 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'stylesheet', type: 'text/css', href: 'css/dsgov.css' }
+      { rel: 'stylesheet', type: 'text/css', href: 'css/dsgov.css' },
+      { rel: 'stylesheet', type: 'text/css', href: 'css/bootstrap-edited.css' }
     ],
     script: [
       { src: 'js/dsgov-init.js', type: 'text/javascript', body: true, defer: true }
