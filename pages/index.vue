@@ -7,9 +7,9 @@
 </template>
 
 <script>
-import HeaderComponent from '../components/HeaderComponent.vue';
-import FooterComponent from '../components/FooterComponent.vue';
-import ContentComponent from '../components/ContentComponent.vue';
+import HeaderComponent from '../components/header/HeaderComponent.vue';
+import FooterComponent from '../components/footer/FooterComponent.vue';
+import ContentComponent from '../components/content/ContentComponent.vue';
 export default {
   name: "IndexPage",
   components: { HeaderComponent, FooterComponent, ContentComponent }

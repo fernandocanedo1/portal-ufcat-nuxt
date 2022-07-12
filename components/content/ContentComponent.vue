@@ -294,7 +294,7 @@
                                                     class="card-img-top" alt="image"> </a>
                                             <div class="tile-subtitle">
 
-                                                <h5 class="font-weight-normal">Coworking Workspace</h5>
+                                                <h5 class="font-weight-normal">Publicado Edital da Eleição de Representantes nas Instâncias Deliberativas da UFCAT</h5>
 
 
                                             </div>
@@ -307,7 +307,7 @@
                                                     class="card-img-top" alt="image"> </a>
                                             <div class="tile-subtitle">
                                                 <a href="#">
-                                                    <h5 class="font-weight-normal">Coworking Workspace</h5>
+                                                    <h5 class="font-weight-normal">Retorno das atividades do TRAVESSIA: Grupo de Acolhimento de estudantes de graduação</h5>
                                                 </a>
 
                                             </div>
@@ -320,7 +320,7 @@
                                                     class="card-img-top" alt="image"> </a>
                                             <div class="tile-subtitle">
                                                 <a href="#">
-                                                    <h5 class="font-weight-normal">Coworking Workspace</h5>
+                                                    <h5 class="font-weight-normal">Secretaria de Tecnologia da Informação comunica reforma de datacenter e paradas de internet</h5>
                                                 </a>
 
                                             </div>
@@ -369,56 +369,7 @@
                                         Eventos
                                     </button>
                                 </div>
-                                <div class="items-container">
-                                    <div class="photoAlbumEntry">
-                                        <a href="#" title="">
-                                            <span aria-hidden="true" class="fas fa-tractor" style=""></span>
-                                            <span class="photoAlbumEntryTitle">Testando</span>
-                                        </a>
-                                    </div>
-                                    <div class="photoAlbumEntry">
-                                        <a href="#" title="">
-                                            <span aria-hidden="true" class="fas fa-tractor" style=""></span>
-                                            <span class="photoAlbumEntryTitle">Testando</span>
-                                        </a>
-                                    </div>
-                                    <div class="photoAlbumEntry">
-                                        <a href="#" title="">
-                                            <span aria-hidden="true" class="fas fa-tractor" style=""></span>
-                                            <span class="photoAlbumEntryTitle">Testando</span>
-                                        </a>
-                                    </div>
-                                    <div class="photoAlbumEntry">
-                                        <a href="#" title="">
-                                            <span aria-hidden="true" class="fas fa-tractor" style=""></span>
-                                            <span class="photoAlbumEntryTitle">Testando</span>
-                                        </a>
-                                    </div>
-                                    <div class="photoAlbumEntry">
-                                        <a href="#" title="">
-                                            <span aria-hidden="true" class="fas fa-tractor" style=""></span>
-                                            <span class="photoAlbumEntryTitle">Testando</span>
-                                        </a>
-                                    </div>
-                                    <div class="photoAlbumEntry">
-                                        <a href="#" title="">
-                                            <span aria-hidden="true" class="fas fa-tractor" style=""></span>
-                                            <span class="photoAlbumEntryTitle">Testando</span>
-                                        </a>
-                                    </div>
-                                    <div class="photoAlbumEntry">
-                                        <a href="#" title="">
-                                            <span aria-hidden="true" class="fas fa-tractor" style=""></span>
-                                            <span class="photoAlbumEntryTitle">Testando</span>
-                                        </a>
-                                    </div>
-                                    <div class="photoAlbumEntry">
-                                        <a href="#" title="">
-                                            <span aria-hidden="true" class="fas fa-tractor" style=""></span>
-                                            <span class="photoAlbumEntryTitle">Testando</span>
-                                        </a>
-                                    </div>
-                                </div>
+                                <ItemsComponent />
 
                             </div>
                         </div>
@@ -429,3 +380,11 @@
     </main>
 
 </template>
+
+<script>
+import ItemsComponent from "./items/ItemsComponent.vue"
+export default {
+  components: { ItemsComponent }
+}
+
+</script>
