@@ -281,7 +281,6 @@
 
 
                         <section class="pt-5 pb-5" id="">
-                            <div class="container">
                                 <div class="title-flex">
                                     <h2>Notícias em Destaque</h2>
                                 </div>
@@ -333,7 +332,6 @@
                                         Notícias
                                     </button>
                                 </div>
-                            </div>
                         </section>
 
 
@@ -350,27 +348,19 @@
                         </div>
                         <div class="mosaic-grid-row">
                             <div class="mosaic-grid-cell mosaic-width-full mosaic-position-leftmost">
-                                <div
-                                    class="movable removable mosaic-tile mosaic-plone.app.standardtiles.contentlisting-tile">
-                                    <div class="mosaic-tile-content">id
-                                        <div
-                                            class="movable removable mosaic-tile mosaic-plone.app.standardtiles.contentlisting-tile">
-                                            <div class="mosaic-tile-content">
-                                                <div
-                                                    data-tile="./@@plone.app.standardtiles.contentlisting/23a6b91b6af94680a9aa3fec57c8b2b3">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                <div class="pt-5 pb-5">
+                               
                                 <div class="container-button">
                                     <button class="br-button secondary" type="button"
                                         onclick="window.location.href='#'">Mais
                                         Eventos
                                     </button>
                                 </div>
-                                <ItemsComponent />
+                                
+                                </div>
 
+                                <ItemsComponent />
+                                
                             </div>
                         </div>
                     </div>

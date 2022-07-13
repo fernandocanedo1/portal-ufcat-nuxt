@@ -38909,6 +38909,7 @@ button.br-item:not(:disabled):hover {
   margin: 0 !important;
 }
 
+
 .items-container {
   display: flex;
   justify-content: space-around;
@@ -39032,10 +39033,11 @@ button.br-item:not(:disabled):hover {
 }
 
 .title-flex h2 {
-  line-height: 1.5;
-  font-weight: 400;
-  color: #333333;
+  line-height: 2;
+  /*font-weight: 400;
+  color: #333333;*/
 }
+
 
 .title-flex {
   display: flex;
@@ -39094,4 +39096,11 @@ button.br-item:not(:disabled):hover {
 
 .menu-footer a:hover {
   text-decoration: none;
+}
+
+.header-info .header-title a{
+  text-decoration:none;
+}
+.header-info .header-title a:hover{
+  background:none;
 }
