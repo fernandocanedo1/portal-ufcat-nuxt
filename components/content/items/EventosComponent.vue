@@ -3,7 +3,6 @@
         <div class="row">
             <div class="col-lg-4">
                 <div class="card card-margin">
-
                     <div class="card-body pt-0">
                         <div class="widget-49">
                             <div class="widget-49-title-wrapper">
@@ -35,7 +34,7 @@
                     <div class="card-body pt-0">
                         <div class="widget-49">
                             <div class="widget-49-title-wrapper">
-                                <div class="widget-49-date-warning">
+                                <div class="widget-49-date-primary">
                                     <span class="widget-49-date-day">13</span>
                                     <span class="widget-49-date-month">apr</span>
                                 </div>
@@ -61,7 +60,8 @@
                                     <span class="widget-49-date-month">apr</span>
                                 </div>
                                 <div class="widget-49-meeting-info">
-                                    <span class="widget-49-pro-title">XXI Encontro Nacional de Didática e Práticas de Ensino (ENDIPE)</span>
+                                    <span class="widget-49-pro-title">XXI Encontro Nacional de Didática e Práticas de
+                                        Ensino (ENDIPE)</span>
                                     <span class="widget-49-meeting-time">12:00 to 13.30 Hrs</span>
                                 </div>
                             </div>

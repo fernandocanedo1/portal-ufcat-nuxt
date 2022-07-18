@@ -149,7 +149,7 @@
                                         de nível
                                         1</span></a><a class="menu-item divider" href="javascript: void(0)"><span
                                         class="icon"><i class="fas fa-bell" aria-hidden="true"></i></span><span
-                                        class="content">Item de nível
+                                        class="content">Item de nível<span class="br-divider my-3"></span>
                                         1</span></a>
                             </nav>
                             <div class="menu-footer">
@@ -282,8 +282,9 @@
 
                         <section class="pt-5 pb-5">
                             <div class="title-flex">
-                                <h2>Notícias em Destaque</h2>
-                            </div>
+                                <h2>Eventos em Destaque</h2>
+                            </div><span class="br-divider my-3"></span>
+
 
                             <NoticiasComponent />
 
@@ -299,7 +300,8 @@
                         <div class="pt-5 pb-5">
                             <div class="title-flex">
                                 <h2>Eventos em Destaque</h2>
-                            </div>
+                            </div><span class="br-divider my-3"></span>
+
                             <EventosComponent />
                             <div class="container-button">
                                 <button class="br-button secondary" type="button"
