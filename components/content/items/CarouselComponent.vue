@@ -10,7 +10,8 @@
                 <div class="carousel-stage">
                     <div class="carousel-page" active="active">
                         <div class="carousel-content bg-blue-10">
-                            <div class="h3 carousel-title">Página 1</div>
+                            <img src="https://www.gov.br/pt-br/conteudos-externos/home/redes-temporarias2800/@@images/image"></img>
+                            <!-- <div class="h3 carousel-title">Página 1</div> -->
                         </div>
                     </div>
                     <div class="carousel-page">

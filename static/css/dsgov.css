@@ -29833,7 +29833,20 @@ a.br-button {
 
 .br-carousel .carousel-button .carousel-btn-next i.fas,
 .br-carousel .carousel-button .carousel-btn-prev i.fas {
-  font-size: var(--carousel-buton-icon-size);
+  font-size: var(--icon-size-2x);
+  background:white;
+     font-family: 'Font Awesome 5 Free';
+    content: '\F104';
+    display: inline-block;
+    font-weight: 900;
+    background-color: #fff;
+    color: #0c326f;
+    font-size: 22px;
+    border-radius: 18px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
 }
 
 .br-carousel[data-stage=in] .carousel-button {
@@ -31299,8 +31312,8 @@ hr {
   --header-padding-medium: var(--spacing-scale-2x);
   --header-padding-large: var(--spacing-scale-3x);
   --header-logo-size: var(--header-logo-medium);
-  --header-logo-small: 16px;
-  --header-logo-medium: 24px;
+  --header-logo-small: 36px;
+  --header-logo-medium: 50px;
   --header-logo-large: 60px;
   --header-sign-color: var(--color-secondary-07);
   --header-title-size: var(--font-size-scale-base);
@@ -31766,7 +31779,7 @@ hr {
   }
 
   .br-header.compact .header-logo {
-    --header-logo-size: var(--header-logo-small);
+    --header-logo-size:0; /*LOGO AO ABAIXAR*/
     float: left;
   }
 
@@ -31789,7 +31802,8 @@ hr {
   }
 
   .br-header.compact .header-menu {
-    --header-title-size: var(--font-size-scale-up-01);
+    --header-title-size:
+    var(--font-size-scale-up-01);
   }
 
   .br-header.compact .header-menu .header-menu-trigger {
@@ -39093,7 +39107,8 @@ button.br-item:not(:disabled):hover {
 
 
 #header .container-lg {
-  padding: 10px !important;
+  /* padding: 10px !important; */
+  
 }
 
 #header {
@@ -39554,3 +39569,21 @@ span .br-divider {
 .title-flex h2{
   font-weight: 600 !important;
 }
+
+.carousel-content img{
+  height:100%;
+}
+
+.br-carousel[data-mobile-nav] .carousel-button .carousel-btn-next,
+  .br-carousel[data-mobile-nav] .carousel-button .carousel-btn-prev {
+    display: flex;
+    width:10vh
+  }
+
+header .container-lg{
+    padding-left:2px !important;
+  }
+header .container-lg .header-menu{
+  height:100% !important;
+}
+
