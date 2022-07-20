@@ -29834,19 +29834,19 @@ a.br-button {
 .br-carousel .carousel-button .carousel-btn-next i.fas,
 .br-carousel .carousel-button .carousel-btn-prev i.fas {
   font-size: var(--icon-size-2x);
-  background:white;
-     font-family: 'Font Awesome 5 Free';
-    content: '\F104';
-    display: inline-block;
-    font-weight: 900;
-    background-color: #fff;
-    color: #0c326f;
-    font-size: 22px;
-    border-radius: 18px;
-    width: 36px;
-    height: 36px;
-    line-height: 36px;
-    text-align: center;
+  background: white;
+  font-family: 'Font Awesome 5 Free';
+  content: '\F104';
+  display: inline-block;
+  font-weight: 900;
+  background-color: #fff;
+  color: #0c326f;
+  font-size: 22px;
+  border-radius: 18px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
 }
 
 .br-carousel[data-stage=in] .carousel-button {
@@ -31417,7 +31417,7 @@ hr {
 .br-header .header-actions {
   align-items: center;
   display: flex;
-  justify-content: flex-end;
+  justify-content: ;
 }
 
 .br-header .header-actions .dropdown.show .br-list {
@@ -31779,7 +31779,8 @@ hr {
   }
 
   .br-header.compact .header-logo {
-    --header-logo-size:0; /*LOGO AO ABAIXAR*/
+    --header-logo-size: 0;
+    /*LOGO AO ABAIXAR*/
     float: left;
   }
 
@@ -31793,7 +31794,7 @@ hr {
 
   .br-header.compact .header-actions {
     float: right;
-    margin-top: var(--spacing-scale-2x);
+    margin-top: var(--spacing-scale-baseh);
     position: relative;
   }
 
@@ -31803,7 +31804,7 @@ hr {
 
   .br-header.compact .header-menu {
     --header-title-size:
-    var(--font-size-scale-up-01);
+      var(--font-size-scale-up-01);
   }
 
   .br-header.compact .header-menu .header-menu-trigger {
@@ -38971,7 +38972,8 @@ button.br-item:not(:disabled):hover {
 }
 
 .photoAlbumEntry {
-  display: inline-block;
+  display: flex;
+
   margin: 5px;
 
 }
@@ -38993,14 +38995,20 @@ button.br-item:not(:disabled):hover {
 }
 
 .photoAlbumEntry .fas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 3rem;
-  margin-bottom: 30px;
+  height: 35%;
   color: #2670e8;
   width: auto;
 }
 
 .photoAlbumEntryTitle {
-  display: block;
+  height: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 1.5rem;
   text-transform: uppercase;
   font-weight: bold;
@@ -39029,6 +39037,35 @@ button.br-item:not(:disabled):hover {
   transition: 300ms;
   transition-timing-function: ease, ease, ease-in-out;
   transition-delay: 300ms, 300ms, 0ms;
+}
+
+@media (max-width: 534px) {
+  .photoAlbumEntry a {
+    width: 150px !important;
+    height: 150px !important;
+  }
+
+  .photoAlbumEntry a:after {
+
+    width: 150px !important;
+    height: 150px !important;
+  }
+
+  .photoAlbumEntry a .fas {
+    font-size: 30px;
+  }
+
+  .photoAlbumEntry a .photoAlbumEntryTitle {
+    font-size: 15px;
+  }
+
+  h5 {
+    font-size: 100% !important;
+  }
+
+  h2 {
+    font-size: 1.5em !important;
+  }
 }
 
 .card-img-top {
@@ -39108,7 +39145,7 @@ button.br-item:not(:disabled):hover {
 
 #header .container-lg {
   /* padding: 10px !important; */
-  
+
 }
 
 #header {
@@ -39531,59 +39568,129 @@ body {
   -webkit-mask-image: linear-gradient(to top, transparent 1%, black 70%);
 }
 
-
-@media (max-width: 534px) {
-  .photoAlbumEntry a {
-    width: 150px !important;
-    height: 150px !important;
-  }
-
-  .photoAlbumEntry a:after {
-
-    width: 150px !important;
-    height: 150px !important;
-  }
-
-  .photoAlbumEntry a .fas {
-    font-size: 30px;
-  }
-
-  .photoAlbumEntry a .photoAlbumEntryTitle {
-    font-size: 15px;
-  }
-
-  h5 {
-    font-size: 100% !important;
-  }
-
-  h2 {
-    font-size: 1.5em !important;
-  }
-}
-
 span .br-divider {
   width: 100% !important;
   padding: 100px;
 }
 
-.title-flex h2{
+.title-flex h2 {
   font-weight: 600 !important;
 }
 
-.carousel-content img{
-  height:100%;
+.carousel-content img {
+  height: 100%;
 }
 
 .br-carousel[data-mobile-nav] .carousel-button .carousel-btn-next,
-  .br-carousel[data-mobile-nav] .carousel-button .carousel-btn-prev {
-    display: flex;
-    width:10vh
-  }
-
-header .container-lg{
-    padding-left:2px !important;
-  }
-header .container-lg .header-menu{
-  height:100% !important;
+.br-carousel[data-mobile-nav] .carousel-button .carousel-btn-prev {
+  display: flex;
+  width: 10vh
 }
 
+header .container-lg {
+  padding-left: 2px !important;
+}
+
+header .container-lg .header-menu {
+  height: 100% !important;
+}
+
+.mb-5 {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+/*Footer*/
+
+.br-item .content {
+  padding: 0 !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+
+}
+
+.br-footer .br-item {
+  padding: 0 !important;
+
+}
+
+
+.br-list .header .content {
+  font-weight: 700 !important;
+  font-size: 15px !important;
+  padding: 0 !important;
+  line-height: 22px;
+  display: flex !important;
+  min-height: 48px;
+}
+
+.br-list .br-list .br-item {
+
+  line-height: 10px;
+  display: flex !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.br-list .br-list .br-item .content {
+
+  padding-right: 1px !important;
+  height: 50px !important;
+  max-height: 50 !important;
+}
+
+.br-footer .col-2 .br-item {
+  display: flex !important;
+  justify-content: space-between;
+  padding-right: 30px !important;
+
+
+}
+
+/*
+  .br-footer .br-item:hover{
+    background:transparent !important;
+  }
+  */
+.br-footer .row {
+  max-width: 1110px !important;
+  padding-left: 15px;
+}
+
+
+.widget-image{
+  position: absolute;
+  top: 1px;
+}
+.edital-cards .card-img-top{
+      min-height: 200px !important;
+      max-height:200px !important;
+}
+.edital-cards .br-card{
+   min-height: 200px !important;
+      max-height:200px !important;
+}
+
+.edital-cards .card-img-top{
+  object-fit:initial;
+}
+
+.edital-cards .tile-subtitle h5{
+  font-size:15px;
+   overflow: hidden;
+  white-space: nowrap; 
+    width: 90%; 
+    text-overflow: ellipsis; 
+
+}
+
+.edital-cards .tile-subtitle h5:hover{
+  font-size:15px;
+   overflow:none;
+  white-space:unset !important; 
+   width: 90%; 
+   text-overflow:clip; 
+
+}
