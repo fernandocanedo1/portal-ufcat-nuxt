@@ -38,7 +38,6 @@
                         <h5 class="font-weight-normal">Secretaria de Tecnologia da Informação comunica reforma de
                             datacenter e paradas de internet</h5>
                     </a>
-
                 </div>
             </div>
         </div>
