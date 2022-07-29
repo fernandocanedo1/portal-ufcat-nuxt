@@ -83,7 +83,52 @@ import CarouselComponent from "./items/CarouselComponent.vue"
 import MenuComponent from "./items/MenuComponent.vue"
 import EditaisComponent from "./items/EditaisComponent.vue"
 export default {
-    components: { ItemsComponent, NoticiasComponent, EventosComponent, BreadcrumbComponent, CarouselComponent, MenuComponent, EditaisComponent }
+    components: { ItemsComponent, NoticiasComponent, EventosComponent, BreadcrumbComponent, CarouselComponent, MenuComponent, EditaisComponent },
+    data() {
+    return {
+      noticias: [],
+    }
+  },/*
+  computed: {
+    // readonly
+    aDouble() {
+      return this.a * 2
+    },
+    // writable
+    aPlus: {
+      get() {
+        return this.a + 1
+      },
+      set(v) {
+        this.a = v - 1
+      }
+    }
+  },*/
+  created() {
+    this.noticias = this.data
+    /*
+    console.log(this.noticias)
+    //console.log(this.data)
+    console.log(this.aDouble) // => 2
+    console.log(this.aPlus) // => 2
+
+    this.aPlus = 3
+    console.log(this.a) // => 2
+    console.log(this.aDouble) // => 4*/
+  },
+  methods: {
+    async getUsers() {
+      this.noticias = data.noticias;
+    }
+  },
+  mounted(){
+        this.getUsers();
+    },
+  async asyncData({ $axios }) {
+    const data = await $axios.$get('/noticias/1')
+    return (data)
+  }
 }
+
 
 </script>

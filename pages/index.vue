@@ -18,10 +18,39 @@
       </ul>
     </div>
 
+    <!--
+    <table class="table">
+      <caption>Noticias</caption>
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Titulo</th>
+          <th scope="col">Resumo</th>
+          <th scope="col">Corpo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr v-for="user in noticias" :key="user.id">
+          <th scope="row">{{ user.id }}</th>
+          <td>{{ user.Titulo }}</td>
+          <td>{{ user.Resumo }}</td>
+          <td>{{ user.Corpo }}</td>
+        </tr>
+      </tbody>
+    </table>
+  -->
+
+
+  <!--
+    <div v-for="noticia in noticias" :key="noticia.id">
+      {{ noticia.attributes.Titulo }}
+    </div>
+  -->
 
     <HeaderComponent />
     <ContentComponent />
     <FooterComponent />
+
   </div>
 </template>
 
@@ -29,9 +58,32 @@
 import HeaderComponent from '../components/header/HeaderComponent.vue';
 import FooterComponent from '../components/footer/FooterComponent.vue';
 import ContentComponent from '../components/content/ContentComponent.vue';
+
 export default {
   name: "IndexPage",
-  components: { HeaderComponent, FooterComponent, ContentComponent }
+  components: { HeaderComponent, FooterComponent, ContentComponent },
+  data() {
+    return {
+      noticias: [],
+    }
+  },
+  created() {
+    this.noticias = this.data
+    //console.log(process.env.API_URL)
+  },
+  methods: {
+    async getUsers() {
+      this.noticias = data.noticias;
+    }
+  },
+  mounted() {
+    this.getUsers();
+  },
+  async asyncData({ $axios }) {
+    const data = await $axios.$get('/noticias')
+    return (data)
+  }
+
 }
 </script>
 

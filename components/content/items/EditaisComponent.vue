@@ -91,7 +91,8 @@
                         <div class="thumb-gradient"></div>
                         <div class="thumb-anim">
                             <a href="#" class="position-relative">
-                                <h5 class="thumb-title">123123213Programa de Pós-Graduação em Gestão Organizacional
+                                <h5 class="thumb-title">1
+                                    Programa de Pós-Graduação em Gestão Organizacional
                                     lança edital de
                                     seleção de Alunos Especiais 2022/2</h5>
                             </a>

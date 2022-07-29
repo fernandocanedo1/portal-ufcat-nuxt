@@ -67,7 +67,7 @@
                             </button>
                         </div>
                         <div class="header-info">
-                            <div class="header-title"><a href="/home">Universidade Federal de Catalão - UFCat</a></div>
+                            <div class="header-title"><nuxt-link to="/">Universidade Federal de Catalão - UFCat</nuxt-link></div>
                             <div class="header-subtitle">Subtítulo do Header</div>
                         </div>
                     </div>
